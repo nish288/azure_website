@@ -1,0 +1,1088 @@
+a {
+  text-decoration: none;
+  color: #171717; }
+
+ul {
+  list-style: none; }
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  font-size: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.15;
+  background: #fafafa;
+  max-width: 1349px;
+  font-size: 16px;
+  font-weight: 400; }
+
+.border {
+  position: absolute;
+  top: 55px;
+  left: 0;
+  height: 2px;
+  width: 1349px;
+  background-color: rgba(199, 199, 199, 0.3); }
+
+#main-header {
+  background-color: #fafafa;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 108px; }
+  #main-header .container-1 {
+    display: grid;
+    grid-template-columns: 1fr 20fr 12fr;
+    padding: 0;
+    padding-top: 0.2rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+    width: 100%; }
+    #main-header .container-1 .final-logo {
+      display: flex; }
+    #main-header .container-1 a.micro {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 20px;
+      font-weight: 640;
+      color: #5e5e5e;
+      letter-spacing: -1px;
+      padding-right: 20px;
+      margin-top: 0.5rem;
+      height: 25px;
+      border-right: #5e5e5e solid 2px; }
+    #main-header .container-1 #logo {
+      width: 39x;
+      height: 39px;
+      margin: 0;
+      padding: 0;
+      padding-top: 2px; }
+    #main-header .container-1 .normal {
+      display: flex;
+      font-size: 14px;
+      padding-left: 1rem; }
+      #main-header .container-1 .normal li {
+        display: flex;
+        padding: 10px;
+        padding-bottom: 17px;
+        justify-self: start;
+        margin-top: 0.4rem;
+        font-weight: 400; }
+        #main-header .container-1 .normal li .current {
+          border-bottom: black solid 2px; }
+        #main-header .container-1 .normal li:first-child {
+          padding-bottom: 13px;
+          font-size: 18px;
+          font-weight: 620; }
+        #main-header .container-1 .normal li:nth-child(2) {
+          padding-left: 1rem; }
+        #main-header .container-1 .normal li a {
+          height: 20px;
+          display: flex; }
+          #main-header .container-1 .normal li a:hover {
+            border-bottom: black solid 2px; }
+    #main-header .container-1 .checkbox {
+      display: none; }
+    #main-header .container-1 .form {
+      display: flex;
+      justify-self: end;
+      padding: 0.7rem;
+      padding-bottom: 0;
+      position: relative; }
+      #main-header .container-1 .form .search {
+        width: 209.5px;
+        height: 31.5px;
+        border: none;
+        margin-bottom: 0.4rem; }
+        #main-header .container-1 .form .search:hover {
+          box-shadow: 1px 1px 2px 1px rgba(0, 91, 161, 0.3), -1px -1px 2px 1px rgba(0, 91, 161, 0.3); }
+        #main-header .container-1 .form .search:focus {
+          border: #005ba1 solid 3px;
+          outline-width: 0;
+          box-shadow: none; }
+      #main-header .container-1 .form input[type="text"] {
+        padding-left: 35px;
+        border-radius: 2.5px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        text-align: start;
+        color: #034577;
+        font-size: 14px;
+        margin-bottom: 0.6rem;
+        box-shadow: inset -1px -1px 3px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.2); }
+      #main-header .container-1 .form i {
+        position: absolute;
+        left: 30;
+        top: 40;
+        width: 10px;
+        height: 10px;
+        padding-top: 8px;
+        padding-left: 8px; }
+      #main-header .container-1 .form a {
+        font-size: 14px;
+        padding: 0 10px;
+        padding-top: 6px;
+        margin-left: 10px;
+        color: #034577; }
+        #main-header .container-1 .form a:hover {
+          background-color: rgba(199, 199, 199, 0.1);
+          text-decoration: underline; }
+  #main-header .container-2 {
+    display: grid;
+    grid-template-columns: 30fr 7fr;
+    padding: 0;
+    padding-top: 0rem;
+    padding-bottom: 0.3rem;
+    align-items: center;
+    width: 100%;
+    height: 30px; }
+    #main-header .container-2 ul {
+      display: flex;
+      font-size: 14px;
+      padding-left: 0;
+      position: relative; }
+      #main-header .container-2 ul li {
+        position: relative;
+        display: flex;
+        padding: 10px;
+        padding-bottom: 17px;
+        padding-right: 20px;
+        justify-self: start;
+        margin-top: 0.4rem;
+        font-weight: 400; }
+        #main-header .container-2 ul li:nth-child(3) ul {
+          width: 263.02px !important;
+          height: 250px; }
+        #main-header .container-2 ul li:nth-child(4) ul {
+          width: 189px !important;
+          height: 105px; }
+        #main-header .container-2 ul li:nth-child(5) ul {
+          width: 94px !important;
+          height: 175px; }
+        #main-header .container-2 ul li:nth-child(6) ul {
+          width: 114px !important;
+          height: 280px; }
+        #main-header .container-2 ul li input {
+          display: none; }
+          #main-header .container-2 ul li input:hover {
+            cursor: pointer; }
+        #main-header .container-2 ul li .boxes {
+          height: 20px;
+          display: flex; }
+          #main-header .container-2 ul li .boxes:hover {
+            border-bottom: black solid 2px;
+            cursor: pointer; }
+        #main-header .container-2 ul li ul {
+          display: none;
+          width: 106px;
+          height: 280px; }
+          #main-header .container-2 ul li ul li {
+            padding: 10px;
+            padding-bottom: 0px;
+            padding-right: 20px; }
+            #main-header .container-2 ul li ul li:first-child {
+              font-size: 14px;
+              font-weight: 400;
+              padding-bottom: 0;
+              margin-top: 0; }
+            #main-header .container-2 ul li ul li:nth-child(2) {
+              padding-left: 0.6rem; }
+        #main-header .container-2 ul li input:checked ~ ul {
+          display: block;
+          position: absolute;
+          left: 20;
+          background-color: #fafafa;
+          width: 106px;
+          box-shadow: -1px -1px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+          margin-top: 1.9rem;
+          cursor: pointer; }
+        #main-header .container-2 ul li i {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          padding-right: 6px;
+          padding-bottom: 20px;
+          opacity: 0.4; }
+        #main-header .container-2 ul li .current {
+          border-bottom: black solid 2px; }
+        #main-header .container-2 ul li:first-child {
+          margin-top: 0.2rem;
+          padding-bottom: 15px;
+          font-size: 18px;
+          font-weight: 620; }
+        #main-header .container-2 ul li:nth-child(2) {
+          padding-left: 1rem; }
+        #main-header .container-2 ul li a {
+          height: 20px;
+          display: flex; }
+          #main-header .container-2 ul li a:hover {
+            border-bottom: black solid 2px; }
+    #main-header .container-2 .buttons {
+      justify-self: end;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 0.5rem;
+      padding-bottom: 15px; }
+      #main-header .container-2 .buttons .portal {
+        background-color: #fafafa;
+        outline-color: rgba(0, 91, 161, 0.7);
+        outline-width: 1px;
+        border: rgba(0, 91, 161, 0.7) solid 1px;
+        border-radius: 2px;
+        text-align: center;
+        width: 58.66px;
+        height: 31.5px;
+        font-size: 14px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 4.25px 8.5px; }
+        #main-header .container-2 .buttons .portal:hover {
+          background-color: #005ba1;
+          color: #fafafa;
+          cursor: pointer; }
+      #main-header .container-2 .buttons .account {
+        background-color: #005ba1;
+        color: #fafafa;
+        outline-color: rgba(0, 91, 161, 0.7);
+        outline-width: 1px;
+        border: rgba(0, 91, 161, 0.7) solid 1px;
+        border-radius: 2px;
+        text-align: center;
+        width: 102.03px;
+        height: 31.5px;
+        font-size: 14px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        padding: 4.25px 8.5px; }
+        #main-header .container-2 .buttons .account:hover {
+          background-color: #024e88;
+          cursor: pointer; }
+
+.banner {
+  width: 1349px;
+  height: 198px;
+  padding: 20px 0;
+  background-color: #005ba1;
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; }
+  .banner .content-1 {
+    padding: 0 4.2rem; }
+    .banner .content-1 h1 {
+      font-size: 2.25rem;
+      padding: 1.4rem 0;
+      padding-bottom: 1rem; }
+    .banner .content-1 p {
+      width: 1000px;
+      line-height: 1.6; }
+
+.tile-1 {
+  padding: 0 2rem;
+  background-color: #fafafa; }
+
+.content-2 {
+  padding: 2rem 2rem;
+  display: grid;
+  grid-gap: 1.5rem;
+  width: 280px;
+  grid-template-columns: repeat(4, 1fr); }
+  .content-2 .grid-1,
+  .content-2 .grid-2,
+  .content-2 .grid-3,
+  .content-2 .grid-4 {
+    box-shadow: -2px -2px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    width: 280px;
+    height: 160px;
+    padding: 24px 24px;
+    transition: box-shadow 0.1s ease-in; }
+    .content-2 .grid-1:hover,
+    .content-2 .grid-2:hover,
+    .content-2 .grid-3:hover,
+    .content-2 .grid-4:hover {
+      box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.2);
+      box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); }
+  .content-2 a {
+    display: flex;
+    flex-direction: row; }
+    .content-2 a svg {
+      margin-top: -15px;
+      margin-left: -15px;
+      padding-right: 10px; }
+    .content-2 a ul {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      width: 170px;
+      height: 120px; }
+      .content-2 a ul li:first-child {
+        font-size: 13px; }
+      .content-2 a ul li:last-child {
+        padding-top: 0.5rem;
+        font-size: 18px;
+        color: #0065b3;
+        font-weight: 500;
+        line-height: 1.4rem; }
+
+.products {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-rows: 0.7fr 5fr;
+  padding: 17px 50px;
+  align-items: center;
+  width: 100%;
+  height: 950px;
+  background-color: #f2f2f2; }
+  .products .media {
+    display: none; }
+
+.both {
+  display: grid;
+  grid-template-columns: 1.2fr 5fr; }
+
+.featured {
+  display: grid;
+  grid-template-rows: 0.2fr 5fr;
+  padding: 0 15px; }
+  .featured h3 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    height: 60px; }
+
+.grid-table {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.5rem;
+  height: 290px;
+  width: 175.53px; }
+  .grid-table .grid-a,
+  .grid-table .grid-b,
+  .grid-table .grid-c,
+  .grid-table .grid-d,
+  .grid-table .grid-e,
+  .grid-table .grid-f,
+  .grid-table .grid-g,
+  .grid-table .grid-h,
+  .grid-table .grid-i {
+    background-color: #ffffff;
+    height: 290px;
+    width: 175.53px;
+    box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.1s ease-in; }
+    .grid-table .grid-a:hover,
+    .grid-table .grid-b:hover,
+    .grid-table .grid-c:hover,
+    .grid-table .grid-d:hover,
+    .grid-table .grid-e:hover,
+    .grid-table .grid-f:hover,
+    .grid-table .grid-g:hover,
+    .grid-table .grid-h:hover,
+    .grid-table .grid-i:hover {
+      box-shadow: -5px -5px 9px rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.2); }
+    .grid-table .grid-a ul,
+    .grid-table .grid-b ul,
+    .grid-table .grid-c ul,
+    .grid-table .grid-d ul,
+    .grid-table .grid-e ul,
+    .grid-table .grid-f ul,
+    .grid-table .grid-g ul,
+    .grid-table .grid-h ul,
+    .grid-table .grid-i ul {
+      padding: 40px 20px; }
+      .grid-table .grid-a ul li,
+      .grid-table .grid-b ul li,
+      .grid-table .grid-c ul li,
+      .grid-table .grid-d ul li,
+      .grid-table .grid-e ul li,
+      .grid-table .grid-f ul li,
+      .grid-table .grid-g ul li,
+      .grid-table .grid-h ul li,
+      .grid-table .grid-i ul li {
+        line-height: 1.15rem; }
+        .grid-table .grid-a ul li:nth-child(2),
+        .grid-table .grid-b ul li:nth-child(2),
+        .grid-table .grid-c ul li:nth-child(2),
+        .grid-table .grid-d ul li:nth-child(2),
+        .grid-table .grid-e ul li:nth-child(2),
+        .grid-table .grid-f ul li:nth-child(2),
+        .grid-table .grid-g ul li:nth-child(2),
+        .grid-table .grid-h ul li:nth-child(2),
+        .grid-table .grid-i ul li:nth-child(2) {
+          padding-top: 20px;
+          color: #005ba1;
+          font-weight: 500;
+          font-size: 18px; }
+        .grid-table .grid-a ul li:last-child,
+        .grid-table .grid-b ul li:last-child,
+        .grid-table .grid-c ul li:last-child,
+        .grid-table .grid-d ul li:last-child,
+        .grid-table .grid-e ul li:last-child,
+        .grid-table .grid-f ul li:last-child,
+        .grid-table .grid-g ul li:last-child,
+        .grid-table .grid-h ul li:last-child,
+        .grid-table .grid-i ul li:last-child {
+          padding: 5px 10px;
+          padding-bottom: 0;
+          padding-left: 0;
+          color: #5e5e5e;
+          font-size: 14px; }
+
+.browse {
+  padding: 0 19px; }
+  .browse h2 {
+    font-size: 32px;
+    font-weight: 500; }
+
+.sidebar {
+  padding: 0 19px;
+  width: 215px; }
+  .sidebar .btn {
+    font-size: 14px;
+    font-weight: 500; }
+    .sidebar .btn ul {
+      display: flex;
+      flex-direction: column; }
+      .sidebar .btn ul li {
+        width: 214.69px;
+        height: 31.5px;
+        padding: 4.25px 10.5px; }
+        .sidebar .btn ul li:hover {
+          background-color: #fafafa;
+          cursor: pointer; }
+        .sidebar .btn ul li:nth-child(3) {
+          padding: 0rem;
+          margin: 0.3rem;
+          height: 0.1px;
+          background-color: rgba(199, 199, 199, 0.3); }
+      .sidebar .btn ul .current {
+        background-color: #e3e3e3; }
+        .sidebar .btn ul .current:hover {
+          background-color: #e3e3e3; }
+
+.bottom {
+  display: grid;
+  grid-template-rows: 340px 279px 154px; }
+
+.lang-tools {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 48px;
+  background-color: #ffffff;
+  width: 1349px;
+  height: 340px; }
+  .lang-tools h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 5px; }
+  .lang-tools .options {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+    width: 180px;
+    height: 56px; }
+    .lang-tools .options .grid-1,
+    .lang-tools .options .grid-2,
+    .lang-tools .options .grid-3,
+    .lang-tools .options .grid-4,
+    .lang-tools .options .grid-5,
+    .lang-tools .options .grid-6 {
+      width: 180px;
+      height: 56px;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 8px;
+      border-radius: 3px;
+      box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.1s ease-in; }
+      .lang-tools .options .grid-1:hover,
+      .lang-tools .options .grid-2:hover,
+      .lang-tools .options .grid-3:hover,
+      .lang-tools .options .grid-4:hover,
+      .lang-tools .options .grid-5:hover,
+      .lang-tools .options .grid-6:hover {
+        box-shadow: -4px -4px 9px rgba(0, 0, 0, 0.2);
+        box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.2); }
+      .lang-tools .options .grid-1 a,
+      .lang-tools .options .grid-2 a,
+      .lang-tools .options .grid-3 a,
+      .lang-tools .options .grid-4 a,
+      .lang-tools .options .grid-5 a,
+      .lang-tools .options .grid-6 a {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        padding: 12px 0; }
+        .lang-tools .options .grid-1 a ul li,
+        .lang-tools .options .grid-2 a ul li,
+        .lang-tools .options .grid-3 a ul li,
+        .lang-tools .options .grid-4 a ul li,
+        .lang-tools .options .grid-5 a ul li,
+        .lang-tools .options .grid-6 a ul li {
+          font-weight: 500;
+          font-size: 18px;
+          color: #0065b3;
+          padding: 4px 20px; }
+    .lang-tools .options .grid-7,
+    .lang-tools .options .grid-8,
+    .lang-tools .options .grid-9,
+    .lang-tools .options .grid-10,
+    .lang-tools .options .grid-11,
+    .lang-tools .options .grid-12 {
+      width: 180px;
+      height: 73px;
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 8px;
+      border-radius: 3px;
+      box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.1s ease-in; }
+      .lang-tools .options .grid-7:hover,
+      .lang-tools .options .grid-8:hover,
+      .lang-tools .options .grid-9:hover,
+      .lang-tools .options .grid-10:hover,
+      .lang-tools .options .grid-11:hover,
+      .lang-tools .options .grid-12:hover {
+        box-shadow: -4px -4px 9px rgba(0, 0, 0, 0.2);
+        box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.2); }
+      .lang-tools .options .grid-7 a,
+      .lang-tools .options .grid-8 a,
+      .lang-tools .options .grid-9 a,
+      .lang-tools .options .grid-10 a,
+      .lang-tools .options .grid-11 a,
+      .lang-tools .options .grid-12 a {
+        display: flex;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        padding: 13px 0;
+        padding-right: 70px; }
+        .lang-tools .options .grid-7 a ul li,
+        .lang-tools .options .grid-8 a ul li,
+        .lang-tools .options .grid-9 a ul li,
+        .lang-tools .options .grid-10 a ul li,
+        .lang-tools .options .grid-11 a ul li,
+        .lang-tools .options .grid-12 a ul li {
+          font-weight: 500;
+          font-size: 18px;
+          color: #0065b3;
+          padding: 8px 20px;
+          width: 0px; }
+
+.sovereign {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 40px;
+  background-color: #f2f2f2;
+  height: 279px; }
+  .sovereign h2 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px; }
+  .sovereign .choices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem; }
+    .sovereign .choices .tile-1,
+    .sovereign .choices .tile-2,
+    .sovereign .choices .tile-3 {
+      width: 388.13px;
+      height: 117px;
+      background-color: #fafafa;
+      padding: 24px;
+      border-radius: 3px;
+      box-shadow: -1px -1px 3px rgba(0, 0, 0, 0.2);
+      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.1s ease-in; }
+      .sovereign .choices .tile-1:hover,
+      .sovereign .choices .tile-2:hover,
+      .sovereign .choices .tile-3:hover {
+        box-shadow: -3px -3px 7px rgba(0, 0, 0, 0.2);
+        box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2); }
+      .sovereign .choices .tile-1 ul li:first-child,
+      .sovereign .choices .tile-2 ul li:first-child,
+      .sovereign .choices .tile-3 ul li:first-child {
+        font-weight: 500;
+        font-size: 18px;
+        color: #0065b3;
+        padding: 5px 0; }
+      .sovereign .choices .tile-1 ul li:last-child,
+      .sovereign .choices .tile-2 ul li:last-child,
+      .sovereign .choices .tile-3 ul li:last-child {
+        font-weight: 400;
+        font-size: 14px;
+        color: #5e5e5e;
+        padding: 5px 0; }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 154px;
+  background-color: #e3e3e3; }
+  .footer ul {
+    display: flex;
+    text-align: center; }
+    .footer ul:first-child {
+      padding: 48px 70px;
+      padding-bottom: 0; }
+      .footer ul:first-child li {
+        font-size: 14px;
+        padding: 10px 20px; }
+        .footer ul:first-child li a:hover {
+          border-bottom: black solid 1px; }
+          .footer ul:first-child li a:hover:nth-child(2):hover {
+            border-bottom: none; }
+        .footer ul:first-child li:nth-child(2) {
+          border: rgba(0, 0, 0, 0) solid 1px;
+          border-radius: 3px; }
+          .footer ul:first-child li:nth-child(2):hover {
+            border: black solid 1px; }
+    .footer ul:last-child {
+      font-size: 14px;
+      padding: 10px 20px;
+      text-align: center;
+      justify-content: center; }
+
+@media (max-width: 500px) {
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.15;
+    background: #fafafa;
+    max-width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%; }
+  .border {
+    display: none; }
+  header {
+    width: 100% !important;
+    padding: 0 6px !important;
+    padding-right: 0px !important;
+    height: 54px !important; }
+    header #main-header {
+      padding: 0 !important;
+      width: 100% !important; }
+    header .container-1 {
+      display: flex !important;
+      grid: none !important;
+      width: inherit; }
+      header .container-1 ul {
+        display: none !important; }
+      header .container-1 .form {
+        display: none !important; }
+      header .container-1 .checkbox {
+        width: 100%;
+        display: flex !important; }
+        header .container-1 .checkbox label {
+          width: 100%;
+          font-size: 16px;
+          font-weight: 500;
+          position: relative;
+          text-align: end;
+          cursor: pointer; }
+          header .container-1 .checkbox label i {
+            padding-left: 5px; }
+        header .container-1 .checkbox #button,
+        header .container-1 .checkbox #docs,
+        header .container-1 .checkbox #search,
+        header .container-1 .checkbox #cancel,
+        header .container-1 .checkbox #rad1,
+        header .container-1 .checkbox #rad2,
+        header .container-1 .checkbox #rad3,
+        header .container-1 .checkbox #rad4,
+        header .container-1 .checkbox #rad5,
+        header .container-1 .checkbox #rad6 {
+          opacity: 0 !important;
+          z-index: 7;
+          width: 1000;
+          height: 1000; }
+          header .container-1 .checkbox #button:hover,
+          header .container-1 .checkbox #docs:hover,
+          header .container-1 .checkbox #search:hover,
+          header .container-1 .checkbox #cancel:hover,
+          header .container-1 .checkbox #rad1:hover,
+          header .container-1 .checkbox #rad2:hover,
+          header .container-1 .checkbox #rad3:hover,
+          header .container-1 .checkbox #rad4:hover,
+          header .container-1 .checkbox #rad5:hover,
+          header .container-1 .checkbox #rad6:hover {
+            cursor: pointer; }
+          header .container-1 .checkbox #button ul,
+          header .container-1 .checkbox #docs ul,
+          header .container-1 .checkbox #search ul,
+          header .container-1 .checkbox #cancel ul,
+          header .container-1 .checkbox #rad1 ul,
+          header .container-1 .checkbox #rad2 ul,
+          header .container-1 .checkbox #rad3 ul,
+          header .container-1 .checkbox #rad4 ul,
+          header .container-1 .checkbox #rad5 ul,
+          header .container-1 .checkbox #rad6 ul {
+            z-index: 1; }
+        header .container-1 .checkbox .dropdown {
+          display: none !important; }
+        header .container-1 .checkbox #button:checked ~ ul {
+          position: fixed;
+          text-align: start;
+          z-index: 2;
+          height: 100%;
+          width: 40vh;
+          top: 0;
+          right: 0;
+          display: flex !important;
+          flex-direction: column;
+          background-color: #ffffff;
+          font-size: 14px; }
+          header .container-1 .checkbox #button:checked ~ ul .docs {
+            display: none; }
+          header .container-1 .checkbox #button:checked ~ ul .desk {
+            display: none; }
+          header .container-1 .checkbox #button:checked ~ ul .trial {
+            display: none; }
+          header .container-1 .checkbox #button:checked ~ ul #docs {
+            position: absolute;
+            width: 40%;
+            top: 15px;
+            height: 30px;
+            z-index: 4; }
+          header .container-1 .checkbox #button:checked ~ ul #docs:checked ~ .docs {
+            z-index: 3;
+            text-align: start;
+            height: 100vh;
+            width: 100%;
+            display: flex !important;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 0px;
+            font-weight: 500px;
+            background-color: #ffffff;
+            font-size: 14px;
+            justify-content: start;
+            align-items: flex-start; }
+            header .container-1 .checkbox #button:checked ~ ul #docs:checked ~ .docs a {
+              margin: 10px;
+              margin-left: 0;
+              padding: 10px;
+              font-size: 14px;
+              font-weight: 500; }
+              header .container-1 .checkbox #button:checked ~ ul #docs:checked ~ .docs a:first-child {
+                width: 275px;
+                height: 57px;
+                padding: 0 5px;
+                text-align: start;
+                font-size: 18px;
+                padding-top: 5px;
+                padding-right: 0;
+                top: 30px;
+                border-bottom: solid 1px #5e5e5e; }
+                header .container-1 .checkbox #button:checked ~ ul #docs:checked ~ .docs a:first-child i:nth-child(3) {
+                  margin-left: 75px; }
+                header .container-1 .checkbox #button:checked ~ ul #docs:checked ~ .docs a:first-child i:nth-child(2) {
+                  margin-left: 95px; }
+          header .container-1 .checkbox #button:checked ~ ul .dre {
+            position: relative; }
+          header .container-1 .checkbox #button:checked ~ ul .arrows {
+            width: 100%;
+            padding: 0;
+            left: 20px;
+            position: absolute;
+            margin: 0;
+            text-align: start;
+            align-items: flex-start;
+            justify-content: right;
+            justify-items: right;
+            text-align: start; }
+            header .container-1 .checkbox #button:checked ~ ul .arrows .reduce,
+            header .container-1 .checkbox #button:checked ~ ul .arrows .reduce2 {
+              color: black;
+              left: 0;
+              font-size: 14px;
+              font-weight: 400;
+              width: inherit !important;
+              padding: 0;
+              margin: 0;
+              text-align: start;
+              align-items: flex-start;
+              justify-content: right;
+              justify-items: right;
+              text-align: start; }
+          header .container-1 .checkbox #button:checked ~ ul .arrow {
+            width: 30%;
+            position: absolute;
+            right: 0;
+            color: #5e5e5e; }
+          header .container-1 .checkbox #button:checked ~ ul .radios:checked ~ ul {
+            z-index: 4;
+            text-align: start;
+            height: 100vh;
+            width: 50vh;
+            display: flex !important;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+            left: 0;
+            padding-top: 0px;
+            font-weight: 500px;
+            background-color: #ffffff;
+            font-size: 14px; }
+          header .container-1 .checkbox #button:checked ~ ul .mew {
+            width: 100%;
+            height: 8vh;
+            padding: 0;
+            text-align: start;
+            font-size: 18px;
+            padding-bottom: 15px;
+            padding-right: 0;
+            top: 15px;
+            border-bottom: solid 1px #5e5e5e; }
+            header .container-1 .checkbox #button:checked ~ ul .mew a {
+              z-index: 1;
+              width: 100%;
+              position: absolute;
+              right: 0;
+              text-align: end; }
+            header .container-1 .checkbox #button:checked ~ ul .mew i {
+              margin-right: 5px; }
+          header .container-1 .checkbox #button:checked ~ ul #search,
+          header .container-1 .checkbox #button:checked ~ ul .last {
+            position: absolute;
+            top: 15px;
+            left: 50vw;
+            width: 10%;
+            height: 25px;
+            padding: 0;
+            margin: 0; }
+          header .container-1 .checkbox #button:checked ~ ul .cancel {
+            position: absolute;
+            top: 15px;
+            width: 100%;
+            right: 10vw; }
+          header .container-1 .checkbox #button:checked ~ ul .vibe {
+            border: #005ba1 solid 3px;
+            outline-width: 0;
+            width: 10rem;
+            height: 28.5px;
+            border-radius: 3px;
+            z-index: 5; }
+          header .container-1 .checkbox #button:checked ~ ul #search:checked ~ .desk {
+            text-align: start;
+            width: 100%;
+            height: 57.5px;
+            display: flex !important;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            padding: 0;
+            padding-top: 10px;
+            padding-bottom: 0;
+            right: 0px;
+            background-color: white;
+            font-size: 14px; }
+          header .container-1 .checkbox #button:checked ~ ul li {
+            width: 100%;
+            height: 57px;
+            padding: 16px; }
+            header .container-1 .checkbox #button:checked ~ ul li h2 {
+              font-size: 16px; }
+            header .container-1 .checkbox #button:checked ~ ul li span {
+              color: #005ba1; }
+    header .container-2 {
+      display: none !important; }
+  .banner {
+    width: 100%;
+    height: fit-content; }
+    .banner .content-1 {
+      width: 100%;
+      padding: 0 20px; }
+      .banner .content-1 h1 {
+        padding-top: 0; }
+      .banner .content-1 p {
+        width: 100%;
+        height: 100%;
+        margin: 0; }
+  .tile-1 {
+    padding: 15px 12px;
+    width: 100%;
+    height: fit-content; }
+    .tile-1 .content-2 {
+      width: 100%;
+      height: fit-content;
+      padding: 0;
+      display: flex !important;
+      flex-direction: column; }
+      .tile-1 .content-2 .grid-1,
+      .tile-1 .content-2 .grid-2,
+      .tile-1 .content-2 .grid-3,
+      .tile-1 .content-2 .grid-4 {
+        width: 100%;
+        height: fit-content; }
+      .tile-1 .content-2 a {
+        width: 100%;
+        height: 100%; }
+        .tile-1 .content-2 a svg {
+          display: none !important; }
+        .tile-1 .content-2 a ul {
+          width: 100%;
+          height: 100%; }
+          .tile-1 .content-2 a ul li {
+            width: 100%;
+            height: 3rem; }
+            .tile-1 .content-2 a ul li:first-child {
+              height: 1rem; }
+  .products {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 12px;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #f2f2f2; }
+    .products .browse {
+      width: 100%;
+      padding: 0; }
+    .products .both {
+      display: none !important; }
+    .products .media {
+      display: grid;
+      margin: 0;
+      grid-template-rows: 1fr 6fr;
+      width: 100%;
+      height: auto; }
+      .products .media #featured {
+        opacity: 0 !important; }
+      .products .media ul {
+        font-size: 18px;
+        padding: 12px;
+        font-weight: 500;
+        padding-top: 0; }
+        .products .media ul:hover {
+          cursor: pointer; }
+        .products .media ul li {
+          padding: 15px 0; }
+          .products .media ul li:first-child {
+            font-size: 23.8px;
+            padding-top: 0; }
+      .products .media .featured {
+        z-index: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 0 10px !important;
+        border: black solid 1px;
+        width: 300px;
+        height: 30px;
+        padding: 10px;
+        width: 100%;
+        margin: auto; }
+        .products .media .featured ul {
+          display: none; }
+        .products .media .featured label {
+          width: 100%;
+          position: absolute;
+          padding: 6px;
+          left: 0; }
+          .products .media .featured label i {
+            position: absolute;
+            right: 0;
+            padding-right: 10px; }
+        .products .media .featured #featured:checked ~ ul {
+          text-align: start;
+          position: absolute;
+          top: 30px;
+          width: 100%;
+          margin: 0;
+          margin-left: -10px;
+          height: auto;
+          display: flex !important;
+          flex-direction: column;
+          background-color: white;
+          font-size: 14px;
+          padding: 5px !important; }
+          .products .media .featured #featured:checked ~ ul li {
+            width: 100%; }
+            .products .media .featured #featured:checked ~ ul li:hover {
+              cursor: pointer; }
+            .products .media .featured #featured:checked ~ ul li:first-child {
+              background-color: #e3e3e3; }
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%; }
+  .lang-tools {
+    padding: 48px 10px;
+    width: 100%;
+    height: 1138px; }
+    .lang-tools h2 {
+      font-size: 25.7px; }
+    .lang-tools .options {
+      grid-gap: 0;
+      width: 100%;
+      height: auto;
+      display: flex;
+      text-align: start;
+      flex-direction: column; }
+      .lang-tools .options .grid-1,
+      .lang-tools .options .grid-2,
+      .lang-tools .options .grid-3,
+      .lang-tools .options .grid-4,
+      .lang-tools .options .grid-5,
+      .lang-tools .options .grid-6,
+      .lang-tools .options .grid-7,
+      .lang-tools .options .grid-8,
+      .lang-tools .options .grid-9,
+      .lang-tools .options .grid-10,
+      .lang-tools .options .grid-11,
+      .lang-tools .options .grid-12 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 16px;
+        text-align: left; }
+        .lang-tools .options .grid-1 a,
+        .lang-tools .options .grid-2 a,
+        .lang-tools .options .grid-3 a,
+        .lang-tools .options .grid-4 a,
+        .lang-tools .options .grid-5 a,
+        .lang-tools .options .grid-6 a,
+        .lang-tools .options .grid-7 a,
+        .lang-tools .options .grid-8 a,
+        .lang-tools .options .grid-9 a,
+        .lang-tools .options .grid-10 a,
+        .lang-tools .options .grid-11 a,
+        .lang-tools .options .grid-12 a {
+          justify-content: left;
+          align-self: left;
+          text-align: left;
+          padding: 13px;
+          margin: 0;
+          width: 100% !important; }
+  .sovereign {
+    height: 535px; }
+    .sovereign h2 {
+      margin-bottom: 10px; }
+    .sovereign .choices {
+      display: flex;
+      flex-direction: column;
+      height: 10px;
+      grid-gap: 1rem; }
+      .sovereign .choices .tile-1,
+      .sovereign .choices .tile-2,
+      .sovereign .choices .tile-3 {
+        padding: 20px;
+        height: auto;
+        width: 100%; }
+  .footer {
+    height: 100%;
+    width: 100%; }
+    .footer ul {
+      display: flex;
+      flex-direction: column; } }
